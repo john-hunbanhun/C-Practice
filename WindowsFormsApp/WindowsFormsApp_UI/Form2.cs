@@ -37,6 +37,68 @@ namespace WindowsFormsApp_UI
         {
             MessageBox.Show(_value.ToString());
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a = 10;
+            int b = 20;
+
+            MessageBox.Show("a=" + a+", b="+b);
+
+            a = b;
+            MessageBox.Show("a=" + a + ", b=" + b);
+
+            b = 30;
+            MessageBox.Show("a=" + a + ", b=" + b);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Other a = new Other();
+            Other b = new Other();
+
+            a.Value = 10;
+            b.Value = 20;
+            MessageBox.Show("a=" + a.Value + ", b=" + b.Value);
+
+            a = b;
+            MessageBox.Show("a=" + a.Value + ", b=" + b.Value);
+
+            b.Value = 30;
+            MessageBox.Show("a=" + a.Value + ", b=" + b.Value); //a=30? 上記a=bをしたため、aとbが同じ参照先になってしまった。
+        }
+
+        private void OtherMethod(Other other)
+        {
+            other.Value = 55;
+        }
+        private void intMethod(int value)
+        {
+            value = 60;
+        }
+        public class Other
+        {
+            public int Value;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Other a = new Other();
+            a.Value = 10;
+            MessageBox.Show("a=" + a.Value);
+
+            OtherMethod(a);
+            MessageBox.Show("a=" + a.Value);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int a = 15;
+            MessageBox.Show("a=" + a);
+
+            intMethod(a);
+            MessageBox.Show("a=" + a);
+        }
     }
     }
     
