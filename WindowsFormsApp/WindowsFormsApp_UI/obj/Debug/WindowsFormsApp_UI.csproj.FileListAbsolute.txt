@@ -1,0 +1,9 @@
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\WindowsFormsApp_UI\bin\Debug\WindowsFormsApp_UI.exe.config
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\WindowsFormsApp_UI\bin\Debug\WindowsFormsApp_UI.exe
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\WindowsFormsApp_UI\bin\Debug\WindowsFormsApp_UI.pdb
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\WindowsFormsApp_UI\obj\Debug\WindowsFormsApp_UI.csprojAssemblyReference.cache
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\WindowsFormsApp_UI\obj\Debug\WindowsFormsApp_UI.Properties.Resources.resources
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\WindowsFormsApp_UI\obj\Debug\WindowsFormsApp_UI.csproj.GenerateResource.cache
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\WindowsFormsApp_UI\obj\Debug\WindowsFormsApp_UI.csproj.CoreCompileInputs.cache
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\WindowsFormsApp_UI\obj\Debug\WindowsFormsApp_UI.exe
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\WindowsFormsApp_UI\obj\Debug\WindowsFormsApp_UI.pdb
