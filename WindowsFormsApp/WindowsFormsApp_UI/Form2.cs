@@ -128,6 +128,28 @@ namespace WindowsFormsApp_UI
             MessageBox.Show(values[0].ToString()+","+ values[1].ToString()+","+ values[2].ToString());
             MessageBox.Show(values.Length.ToString());
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            List<int> values = new List<int>();
+            values.Add(10);
+            values.Add(20);
+            values.Add(30);
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            List<int> values = new List<int>();
+            values.Add(10);
+            values.Add(30);
+            values.Add(50);
+
+            MessageBox.Show(values.Count.ToString());
+            values.RemoveAt(1);
+            values.Clear();
+            MessageBox.Show(values.Count.ToString());
+        }
+       
     }
     }
     
