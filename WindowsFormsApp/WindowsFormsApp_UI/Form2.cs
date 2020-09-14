@@ -99,6 +99,24 @@ namespace WindowsFormsApp_UI
             intMethod(a);
             MessageBox.Show("a=" + a);
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            double d1 = 1.4d;
+            int a = (int)d1;
+            MessageBox.Show(a.ToString());
+
+            short shortValue = 10;
+            int intValue = shortValue;
+            byte byteValue = (byte)shortValue;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string value = "10";
+            int intValue=Convert.ToInt32(value);
+            MessageBox.Show(intValue.ToString());
+        }
     }
     }
     
