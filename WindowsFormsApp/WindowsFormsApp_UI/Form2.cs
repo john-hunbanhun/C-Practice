@@ -117,6 +117,17 @@ namespace WindowsFormsApp_UI
             int intValue=Convert.ToInt32(value);
             MessageBox.Show(intValue.ToString());
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            int[] values = new int[3];
+            values[0] = 10;
+            values[1] = 30;
+            values[2] = 60;
+            //values[3] = 60; 境界外エラー
+            MessageBox.Show(values[0].ToString()+","+ values[1].ToString()+","+ values[2].ToString());
+            MessageBox.Show(values.Length.ToString());
+        }
     }
     }
     
