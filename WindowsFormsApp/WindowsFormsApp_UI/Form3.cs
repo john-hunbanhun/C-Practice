@@ -65,5 +65,38 @@ namespace WindowsFormsApp_UI
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int i = 0;
+
+            while (i < 10)
+            {
+                i++;
+
+                if (i == 3)
+                {
+                    continue;
+                }
+                if (i == 6)
+                {
+                    break;
+                }
+                MessageBox.Show(i.ToString());
+            }
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int i = 100;
+
+            do
+            {
+                i++;
+            } while (i <10);
+
+            MessageBox.Show(i.ToString());
+        }
     }
 }
