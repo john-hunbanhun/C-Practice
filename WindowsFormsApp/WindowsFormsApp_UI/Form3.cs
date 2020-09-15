@@ -15,6 +15,55 @@ namespace WindowsFormsApp_UI
         public Form3()
         {
             InitializeComponent();
+
+            int i = 0;
+            i += 2;
+            i -= 1;
+
+            i++;
+            i--;
+
+            int a = 10 % 4;
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int value = Convert.ToInt32(textBox1.Text);
+            if(value ==10)
+            {
+                MessageBox.Show("10ですな");
+            }
+            else if (value == 20)
+            {
+                MessageBox.Show("20ですよ");
+            }
+            else
+            {
+                MessageBox.Show("10でも20でもないよ");
+            }
+
+            switch (value)
+            {
+                case 10:
+                    MessageBox.Show("10やん");
+                    break;
+                case 20:
+                    MessageBox.Show("20やろがい");
+                    break;
+                default:
+                    MessageBox.Show("何でもないのう");
+                    break;
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
