@@ -106,5 +106,41 @@ namespace WindowsFormsApp_UI
                 MessageBox.Show(i.ToString());
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            List<int> items = new List<int>();
+            items.Add(10);
+            items.Add(20);
+            items.Add(30);
+            items.Add(40);
+
+            foreach(int item in items)
+            {
+                MessageBox.Show(item.ToString());
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+              List<int> items = new List<int>();
+            items.Add(10);
+            items.Add(20);
+            items.Add(30);
+            items.Add(40);
+
+            for(int i = items.Count-1; i>=0; i--)
+            {
+                if (items[i] == 20)
+                {
+                    items.RemoveAt(i);
+                }
+            }
+
+            foreach(int item in items)
+            {
+                MessageBox.Show(item.ToString());
+            }
+        }
     }
 }
