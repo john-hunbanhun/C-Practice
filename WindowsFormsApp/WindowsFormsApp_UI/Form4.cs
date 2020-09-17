@@ -19,11 +19,10 @@ namespace WindowsFormsApp_UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Customer customer = new Customer();
-            customer.LastName = "谷澤";
-            customer.FirstName = "恵里香";
+            Customer customer1 = new Customer("谷澤");
+            Customer customer2 = new Customer("ミラ","滝口");
 
-            MessageBox.Show(customer.GetFullName());
+            MessageBox.Show(customer1.GetFullName()+customer2.GetFullName());
         }
     }
 }
