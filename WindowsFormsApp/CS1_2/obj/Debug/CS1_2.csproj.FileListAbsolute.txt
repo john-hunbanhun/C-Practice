@@ -1,0 +1,5 @@
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1_2\bin\Debug\CS1_2.dll
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1_2\bin\Debug\CS1_2.pdb
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1_2\obj\Debug\CS1_2.csproj.CoreCompileInputs.cache
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1_2\obj\Debug\CS1_2.dll
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1_2\obj\Debug\CS1_2.pdb
