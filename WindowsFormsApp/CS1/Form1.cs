@@ -15,6 +15,10 @@ namespace CS1
         public Form1()
         {
             InitializeComponent();
+
+            var capsel = new Capsel();
+           // capsel._count = 100000; カプセル化されたので、他のクラスからは触れない
+            capsel.Call();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,6 +40,11 @@ namespace CS1
             var instance2 = new Instance(8);
             instance2.Call();
             MessageBox.Show(instance2.GetCount().ToString());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
