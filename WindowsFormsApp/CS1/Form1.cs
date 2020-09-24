@@ -16,9 +16,15 @@ namespace CS1
         {
             InitializeComponent();
 
-            var capsel = new Capsel();
+            var capsel = new Capsel(0);
            // capsel._count = 100000; カプセル化されたので、他のクラスからは触れない
             capsel.Call();
+
+            using (Database data = new Database())
+            {
+                //処理
+            }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
