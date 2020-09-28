@@ -20,6 +20,9 @@ namespace CS1
            // capsel._count = 100000; カプセル化されたので、他のクラスからは触れない
             capsel.Call();
 
+            var sub = new Sub(5);
+            sub.GetData(); //subはsuperを継承しているので、GetData()メソッドが使用可能
+
             using (Database data = new Database())
             {
                 //処理
