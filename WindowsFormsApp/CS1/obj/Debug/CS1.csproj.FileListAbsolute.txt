@@ -9,3 +9,5 @@ C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsAp
 C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1\obj\Debug\CS1.csproj.CopyComplete
 C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1\obj\Debug\CS1.dll
 C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1\obj\Debug\CS1.pdb
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1\obj\Debug\CS1.Form2.resources
+C:\Users\foymi\OneDrive\デスクトップ\C#_Practice\C-Practice\WindowsFormsApp\CS1\obj\Debug\CS1.Form3.resources

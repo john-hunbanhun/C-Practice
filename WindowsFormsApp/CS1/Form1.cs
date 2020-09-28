@@ -52,5 +52,26 @@ namespace CS1
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using(var f = new Form2())
+            {
+                f.ShowDialog();
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            using(var f = new Form3())
+            {
+                f.ShowDialog();
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Text = Static.GetCount().ToString();
+        }
     }
 }
