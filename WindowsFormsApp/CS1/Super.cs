@@ -18,7 +18,10 @@ namespace CS1
             _privateValue = value;
         }
 
-        public int GetData()
+        //オーバーライド
+        //基底クラス：virtualキーワード
+        //「書き換えていいですよ」のサイン
+        public virtual int GetData()
         {
             return 1;
         }
