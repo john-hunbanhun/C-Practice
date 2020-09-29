@@ -16,10 +16,10 @@ namespace CS1
         {
             InitializeComponent();
 
-            IDatabase product = new Products();
-            IDatabase orders = new Orders();
+            DataBase product = new Products();
+            DataBase orders = new Orders();
 
-            List<IDatabase> databases = new List<IDatabase>();
+            List<DataBase> databases = new List<DataBase>();
             databases.Add(product);
             databases.Add(orders);
 

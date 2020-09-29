@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CS1
 {
-    class Orders : IDatabase
+    class Orders : DataBase
     {
-        public void Save()
+        protected override void SaveMethod()
         {
             Console.WriteLine("発注テーブル登録");
         }

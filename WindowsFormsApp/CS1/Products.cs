@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CS1
 {
-    class Products : IDatabase //インターフェースの実装
+    class Products : DataBase //インターフェースの実装
     {
-        public void Save()
+        protected override void SaveMethod()
         {
             Console.WriteLine("商品マスタの登録");
         }
