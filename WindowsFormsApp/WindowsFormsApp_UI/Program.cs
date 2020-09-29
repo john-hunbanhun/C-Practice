@@ -16,7 +16,7 @@ namespace WindowsFormsApp_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CS1.Form1());
+            Application.Run(new CS1.Form4());
         }
     }
 }
