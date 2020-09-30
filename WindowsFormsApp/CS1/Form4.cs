@@ -33,5 +33,39 @@ namespace CS1
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Exceptions e1= new Exceptions();
+            e1.GetData(10);
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Exceptions e1 = new Exceptions();
+                e1.GetData(10);
+            }
+            catch(ArgumentOutOfRangeException ex)
+            {
+                this.Text = "インデックスのエラー";
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Exceptions e1 = new Exceptions();
+                e1.GetData2(10);
+            }
+            catch (MyException ex)
+            {
+                this.Text =ex.Message;
+                Console.WriteLine(ex.InnerException.Message);
+            }
+        }
     }
 }
